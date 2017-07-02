@@ -1,0 +1,133 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+alignright {
+    float: right;
+    margin-left: 15px;
+}
+aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="url"], textarea {
+    border: none;
+    padding: 15px;
+    background-color: #f9f9f9;
+}
+input[type="submit"], button[type="submit"] {
+    border: medium none;
+    color: #fff;
+    margin: 0;
+    padding: 15px 30px;
+    width: auto;
+}
+a:focus, input:focus, textarea:focus, button:focus {
+    outline: 0 solid
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+} 
+
+*/*
+font {
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+}
+*/*
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.7;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.team-bg {
+    background-image: url(img/team_member-01.jpg); 
+    background-color: #ddd; 
+    background-position: center top; 
+    background-size: cover; 
+    height: 300px;
+}
+.team-bg-02 {background-image: url(img/team_member-02.jpg);}
+.team-bg-03 {background-image: url(img/team_member-03.jpg);}
+
+
+
+.section-title {
+    position: relative;
+    top: 64px;
+    transform: rotate(-90deg);
+}
+.section-title::before {
+    background-color: #9e9e9e;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 0;
+    top: -45px;
+    width: 85px;
+}
+.section-title h1 {
+    font-size: 34px;
+    font-weight: 700;
+    text-align: right;
+}
+.team-bg {
+    margin-bottom: 45px;
+}
+.border-content {
+    border: 1px solid #666666;
+    font-size: 21px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.team-title {
+    margin-top: -14px;
+}
+.team-title h3 {
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 0 10px;
+}
+.border-content p {
+    color: #3a3a3a;
+    margin-bottom: 20px;
+}
+.col-md-4:nth-child(2) .single-team-member {
+    padding-top: 100px;
+}
+.section-padding {
+    padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
